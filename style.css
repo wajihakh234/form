@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.main{
+    background-color: rgb(215, 186, 166);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    background-color: rgb(52, 52, 204);
+    height: 80vh;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+
+}
+.text p{
+    padding: 40px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.text h1{
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+.btn{
+    padding: 10px;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 16, 16);
+    border: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.btn:hover{
+    background-color: rgb(226, 226, 243);
+    color: rgb(2, 15, 192);
+}
+
+.form2{
+    background-color: rgb(238, 237, 237); 
+    height: 80vh;
+    width: 35%; display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin: 8px;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(219, 219, 219);
+    cursor: pointer;
+}
+input:hover{
+    background-color: rgb(255, 255, 255);
+}
+.btn2{
+    background-color: rgb(58, 58, 177);
+     width: 320px;
+    height: 50px;
+    margin: 8px;
+    padding: 10px;
+    font-size: 16px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: rgb(160, 160, 255);
+    color: black;
+}
+.icon{
+      font-size: 25px;
+      margin-top: 10px;
+
+}
+.fa-whatsapp{
+    color: rgb(22, 167, 22);
+}
+.fa-facebook{
+    color: rgb(37, 37, 214);
+}
+.fa-comment{
+    color: rgb(156, 2, 136);
+}
+
+A{
+    text-decoration: none;
+    font-size: larger;
+}
